@@ -9,6 +9,8 @@ print("---")
 print("Task 3")
 
 class Engineers:
+    skill = 'Problem Solver'
+
     def __init__(self, name, type, Years_of_Experience):
         self.name = name
         self.type = type
@@ -31,6 +33,7 @@ print ('---')
 print ('Engineer 1')
 print('Name:', p1.name)
 print('Engineering Discipline:', p1.type)
+print('Skill:', p1.skill)
 print('Years of Experience:', p1.Years_of_Experience)
 
 print ('---')
@@ -38,4 +41,9 @@ print ('---')
 print ('Engineer 2')
 print('Name:', p2.name)
 print('Engineering Discipline:', p2.type)
+print('Skill:', p2.skill)
 print('Years of Experience:', p2.Years_of_Experience)
+
+print ('---')
+
+#Left out the fixed class attribute step from previous Github Upload
